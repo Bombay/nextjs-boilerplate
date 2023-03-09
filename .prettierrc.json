@@ -1,0 +1,24 @@
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": true,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "importOrder": [
+    "@/pages/api/*",
+    "@/pages/*",
+    "@/components/*",
+    "@/layouts/*",
+    "@/hooks/*",
+    "@/styles/*",
+    "@/svg/*",
+    "@/images/*",
+    "@/types/*"
+  ],
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true
+}
