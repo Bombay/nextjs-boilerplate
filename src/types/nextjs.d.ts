@@ -4,6 +4,10 @@ import { ReactNode } from 'react'
 
 type CustomAppProps = AppProps & {
 	Component: NextComponentType & {
+		/**
+		 * dynamic layout 용도
+		 * @param page page component
+		 */
 		getLayout?: (page: ReactNode) => ReactNode
 	}
 }
